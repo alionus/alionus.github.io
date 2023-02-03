@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>私盐</title>
+  
+  <subtitle>私盐</subtitle>
+  <link href="https://zh-yx.top/atom.xml" rel="self"/>
+  
+  <link href="https://zh-yx.top/"/>
+  <updated>2023-02-02T11:41:08.563Z</updated>
+  <id>https://zh-yx.top/</id>
+  
+  <author>
+    <name>zhihu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>page</title>
+    <link href="https://zh-yx.top/2023/02/02/page/"/>
+    <id>https://zh-yx.top/2023/02/02/page/</id>
+    <published>2023-02-02T11:41:08.000Z</published>
+    <updated>2023-02-02T11:41:08.563Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
