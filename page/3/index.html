@@ -774,7 +774,8 @@
                 }
               }
             }
-            apiText ? typing(apiText) : typing(text);
+            if(result['from_who']===null) result['from_who']=' ';
+            apiText ? typing('『'+apiText+'』'+ '<br /> <h4>'+ '——' +result['from_who']+'「'+result['from']+'」'+'</h4>') : typing(text);
           },
           error: function(xhr, status, error) {
             if (error) {
