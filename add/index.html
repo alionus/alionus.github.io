@@ -24,7 +24,7 @@
 <meta property="og:description" content="由于学业原因，在线时间为周一至周五22:00-22:30 注意事项：  请勿发布违法和垃圾留言 请按照格式填写。格式：添加文章：文章链接 如果留言后没有出现您的评论，可能是被系统判定为垃圾内容，请待我看见后帮您通过留言（24h内） 其他事项邮箱联系me@zh-yx.top  谢谢配合 请在下方留言（无需登录）">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-02-03T00:39:22.000Z">
-<meta property="article:modified_time" content="2023-02-05T06:46:26.669Z">
+<meta property="article:modified_time" content="2023-02-11T01:04:04.632Z">
 <meta property="article:author" content="zhihu">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -121,9 +121,9 @@
 
 
   
-<meta name="generator" content="Hexo 6.3.0">
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="私盐" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="私盐" type="application/atom+xml">
 </head>
 
 
@@ -290,7 +290,7 @@
       Fluid.utils.createCssLink('https://lib.baomitu.com/waline/2.14.7/waline.min.css')
       Fluid.utils.createScript('https://lib.baomitu.com/waline/2.14.7/waline.min.js', function() {
         var options = Object.assign(
-          {"serverURL":"https://comment.zh-yx.top/","path":"window.location.pathname","meta":[],"requiredMeta":[],"lang":"zh-CN","emoji":false,"search":false,"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":500,"pageSize":10,"login":"false","turnstile":"0x4AAAAAAACUSLuemdNSvrI8"},
+          {"serverURL":"https://comment.zh-yx.top/","path":"window.location.pathname","meta":["nick"],"requiredMeta":[],"lang":"zh-CN","emoji":false,"search":false,"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":500,"pageSize":10,"login":"false","turnstile":"0x4AAAAAAACUSLuemdNSvrI8"},
           {
             el: '#waline',
             path: window.location.pathname
@@ -457,5 +457,20 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
